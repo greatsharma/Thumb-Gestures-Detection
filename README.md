@@ -9,7 +9,7 @@ I used `background subtraction` for extracting the hand pixels and then passed t
 
 ![](outputs/up_img.png)
 
-You can download the entire dataset from [here](https://github.com/greatsharma/Thumb-Gestures-Detection/blob/master/data.zip).
+I custom created the entire dataset using opencv, you can download the entire dataset from [here](https://github.com/greatsharma/Thumb-Gestures-Detection/blob/master/data.zip).
 
 The biggest challenge was to extract the hand as I am not using any object-detection API so it was even more challenging for me. I used two background subtraction techniques 1.`AbsDiff` 2.`MOG`. AbsDiff gave excellent result whereas MOG does bad in these conditions. I uploaded both of them, you can test both by your own.
 
